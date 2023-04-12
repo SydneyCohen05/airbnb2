@@ -12,4 +12,7 @@
 -- | Belmont Cragin         |
 -- | Beverly                |
 
-
+Select
+distinct neighborhood
+from listings
+order by neighborhood ASC;
